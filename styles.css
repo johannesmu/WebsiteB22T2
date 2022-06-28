@@ -22,3 +22,13 @@ body {
     color: white;
     background-color: black;
 }
+.banner {
+    background-image: url("stephen-leonardi-NH-vr7Eivu0-unsplash.jpg");
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner h2 {
+    text-align: center;
+    padding-top: 25vh;
+}
