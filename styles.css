@@ -1,0 +1,12 @@
+body {
+    background-color: bisque;
+}
+.logo {
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+.navigation {
+    background-color: white;
+    text-align: center;
+}
