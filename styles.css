@@ -82,3 +82,16 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* about page */
+.about-banner {
+    background-image: url("images/marc-pell-oWRVjFQIwAY-unsplash.jpg");
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bangers', cursive;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 3rem;
+}
