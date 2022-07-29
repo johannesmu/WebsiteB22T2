@@ -58,3 +58,27 @@ img {
     width: 400px;
     object-fit: cover;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    display: block;
+    padding: 10px;
+    font-size: 2rem;
+    color: black;
+    margin: 0 15px;
+}
+.social a:hover {
+    color: orange;
+}
+.copyright {
+    text-align: center;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
