@@ -5,6 +5,7 @@ body {
 }
 .main-header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -14,6 +15,8 @@ body {
     padding: 10px;
 }
 .navigation {
+    display: flex;
+    flex-direction: row;
     background-color: white;
     text-align: center;
 }
