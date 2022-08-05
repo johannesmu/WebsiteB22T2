@@ -98,3 +98,25 @@ img {
     color: white;
     font-size: 3rem;
 }
+/* contact page */
+.contact-banner {
+    background-image: url("images/markus-winkler-_nvKjg0aliA-unsplash.jpg");
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bangers', cursive;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 3rem;
+}
+
+#contact-form {
+    grid-column: span 3;
+    max-width: 640px;
+    margin: auto;
+}
+
+.label {
+    display: block;
+}
