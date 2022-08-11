@@ -7,12 +7,22 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: flex-end;
 }
 .logo {
     width: 50px;
     display: block;
     padding: 10px;
+}
+.navbutton {
+    width: 54px;
+    height: 54px;
+    font-size: 32px;
+    margin-right: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    display: none;
 }
 .navigation {
     display: flex;

@@ -7,11 +7,20 @@
         width: 100%;
     }
     .main-header {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .navigation {
         justify-content: center;
         width: 100%;
+        flex-wrap: wrap;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .navigation a {
+        width: 100%;
+    }
+    .navbutton {
+        display: block;
     }
 }
