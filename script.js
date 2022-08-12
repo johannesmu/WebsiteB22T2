@@ -7,12 +7,13 @@ function onPageLoad() {
     // add a listener to the button 
     btn.addEventListener('click', () => {
         if( nav.classList.contains('open') ) {
-            nav.classList.add('open')
-        }
-        else {
             nav.classList.remove('open')
         }
+        else {
+            nav.classList.add('open')
+        }
     })
+
 }
 
 window.addEventListener('load', onPageLoad )
