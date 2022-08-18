@@ -52,6 +52,22 @@ body {
     padding-top: 25vh;
 }
 
+.carousel {
+    background-color: #333333;
+}
+.slide {
+    min-height: 50vh;
+    min-width: 100%;
+    display: grid;
+    place-items: center;
+    color: #eeeeee;
+    background-position: center;
+    background-size: cover;
+}
+#second {
+    background-image: url("stephen-leonardi-NH-vr7Eivu0-unsplash.jpg");
+}
+
 .content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
