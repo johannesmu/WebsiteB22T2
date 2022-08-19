@@ -57,15 +57,35 @@ body {
 }
 .slide {
     min-height: 50vh;
-    min-width: 100%;
+    min-width: 100vw;
     display: grid;
     place-items: center;
     color: #eeeeee;
     background-position: center;
     background-size: cover;
 }
+.slide h1 {
+    padding: 0.5em 1.5em;
+    background-color: rgba( 0, 0, 0, 0.5 );
+}
+.slide-group {
+    display: grid;
+    grid-template-rows: 2;
+}
+.slide-button {
+    display: block;
+    margin: auto;
+    padding: 15px 30px;
+    color: white;
+    background-color: #000000;
+    align-self: center;
+    text-decoration: none;
+}
 #second {
     background-image: url("stephen-leonardi-NH-vr7Eivu0-unsplash.jpg");
+}
+#first {
+    background-image: url("images/anthony-cantin-ig-lw0Dtz34-unsplash.jpg");
 }
 
 .content {
